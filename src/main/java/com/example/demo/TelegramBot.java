@@ -77,7 +77,6 @@ public class TelegramBot extends TelegramLongPollingBot {
 
                     case "/weather":
                             prepareAndSendMessage(chatId, "Погода в городе Алматы: " + ourService.pogoda());
-                        System.out.println(update.getMessage().getChat().getFirstName());
                         break;
                     case "/week":
                         LocalDate myObj = LocalDate.now();

@@ -29,7 +29,7 @@ public class ParserTask {
             for (Element el: news) {
                 String title = el.ownText();
                     news1.setTitle(title);
-                System.out.println(news1.getTitle());
+
 
             }
         } catch (IOException e) {
